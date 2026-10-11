@@ -34,6 +34,7 @@ MAE（Mean Absolute Error，平均绝对误差）越低越好。
 
 - [简历项目经历](resume-project.md)
 - [Mini-VLA 实验报告](docs/experiment-report.md)
+- [实验方法卡](docs/method-card.md)
 - [数据与特征缓存质检](docs/data-qc.md)
 - [语言条件与测试时干预](docs/language-conditioning.md)
 - [证据范围与复现边界](docs/evidence-scope.md)
