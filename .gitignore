@@ -5,6 +5,9 @@
 *.pem
 *.key
 credentials*
+*.token
+.aws/
+.ssh/
 
 # Data and model artifacts: keep locally unless redistribution is explicitly allowed
 data/
@@ -20,10 +23,15 @@ checkpoints/
 *.parquet
 *.arrow
 *.sqlite
+*.bin
+*.model
 
 # Local and generated files
 .venv/
 venv/
+.idea/
+.vscode/
+.DS_Store
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
