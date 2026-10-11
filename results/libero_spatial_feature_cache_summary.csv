@@ -1,0 +1,11 @@
+metric,value
+frames,101469
+main_feature_std,0.877610981464386
+wrist_feature_std,0.8253429532051086
+main_shape_check,PASS
+wrist_shape_check,PASS
+main_finite_check,PASS
+wrist_finite_check,PASS
+main_variation_check,PASS
+wrist_variation_check,PASS
+overall_qc,PASS

@@ -1,0 +1,4 @@
+model,test_mae
+projected_state_language,0.08757774297066015
+global_projected_dual,0.08785951817572804
+spatial_projected_dual,0.08518760316071292
