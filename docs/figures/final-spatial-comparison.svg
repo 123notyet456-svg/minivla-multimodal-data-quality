@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="370" viewBox="0 0 900 370" role="img" aria-labelledby="title desc">
+  <title id="title">最终空间视觉模型与对照的测试 MAE</title>
+  <desc id="desc">投影 State 加 Language 为 0.087578，投影全局池化双视觉为 0.087860，投影空间双视觉为 0.085188。空间视觉分别改善 2.73% 与 3.04%。误差越低越好。</desc>
+  <rect width="900" height="370" rx="16" fill="#f8fafc"/>
+  <text x="38" y="45" fill="#0f172a" font-family="Arial,sans-serif" font-size="23" font-weight="700">最终空间视觉对照：测试 MAE</text>
+  <text x="38" y="70" fill="#64748b" font-family="Arial,sans-serif" font-size="13">当前数据划分、Seed=42 的离线动作预测；MAE 越低越好。</text>
+  <g fill="#334155" font-family="Arial,sans-serif" font-size="15"><text x="38" y="126">投影 State + Language</text><text x="38" y="190">投影 Global-Pooled Dual</text><text x="38" y="254">投影 Spatial Dual</text></g>
+  <g fill="#e2e8f0"><rect x="330" y="104" width="430" height="27" rx="6"/><rect x="330" y="168" width="430" height="27" rx="6"/><rect x="330" y="232" width="430" height="27" rx="6"/></g>
+  <rect x="330" y="104" width="376.6" height="27" rx="6" fill="#2563eb"/>
+  <rect x="330" y="168" width="377.8" height="27" rx="6" fill="#d97706"/>
+  <rect x="330" y="232" width="366.0" height="27" rx="6" fill="#0f766e"/>
+  <g fill="#0f172a" font-family="Arial,sans-serif" font-size="13" font-weight="700"><text x="716" y="123">0.087578</text><text x="718" y="187">0.087860</text><text x="706" y="251">0.085188</text></g>
+  <text x="330" y="306" fill="#0f766e" font-family="Arial,sans-serif" font-size="14" font-weight="700">Spatial Dual：相对 State+Language -2.73%，相对 Global-Pooled Dual -3.04%</text>
+  <line x1="330" y1="327" x2="760" y2="327" stroke="#94a3b8"/>
+  <g stroke="#cbd5e1"><line x1="545" y1="98" x2="545" y2="266"/><line x1="760" y1="98" x2="760" y2="266"/></g>
+  <g fill="#64748b" font-family="Arial,sans-serif" font-size="11"><text x="326" y="348">0</text><text x="532" y="348">0.05</text><text x="747" y="348">0.10</text></g>
+</svg>
