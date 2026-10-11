@@ -1,0 +1,34 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+
+# Data and model artifacts: keep locally unless redistribution is explicitly allowed
+data/
+datasets/
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.parquet
+*.arrow
+*.sqlite
+
+# Local and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+logs/
+outputs/
+wandb/
+mlruns/
+*.log
