@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="390" viewBox="0 0 900 390" role="img" aria-labelledby="title desc">
+  <title id="title">测试时视觉置零与错配干预的 MAE</title>
+  <desc id="desc">正确视觉 0.093733，主相机置零 0.170221，腕部相机置零 0.171370，双相机置零 0.253782，全局错配 0.278478，同任务内错配 0.266721。</desc>
+  <rect width="900" height="390" rx="16" fill="#f8fafc"/>
+  <text x="34" y="42" fill="#0f172a" font-family="Arial,sans-serif" font-size="22" font-weight="700">测试时视觉干预：测试 MAE</text>
+  <text x="34" y="66" fill="#64748b" font-family="Arial,sans-serif" font-size="13">固定模型、State、Language 与标签，仅改变视觉特征；越低越好。</text>
+  <g font-family="Arial,sans-serif" font-size="13" fill="#334155">
+    <text x="34" y="111">正确视觉</text><text x="34" y="150">主相机置零</text><text x="34" y="189">腕部相机置零</text>
+    <text x="34" y="228">双相机置零</text><text x="34" y="267">全局错配视觉</text><text x="34" y="306">同任务内错配</text>
+  </g>
+  <g fill="#e2e8f0"><rect x="250" y="94" width="450" height="20" rx="5"/><rect x="250" y="133" width="450" height="20" rx="5"/><rect x="250" y="172" width="450" height="20" rx="5"/><rect x="250" y="211" width="450" height="20" rx="5"/><rect x="250" y="250" width="450" height="20" rx="5"/><rect x="250" y="289" width="450" height="20" rx="5"/></g>
+  <g fill="#2563eb"><rect x="250" y="94" width="140.6" height="20" rx="5"/></g>
+  <g fill="#d97706"><rect x="250" y="133" width="255.3" height="20" rx="5"/><rect x="250" y="172" width="257.1" height="20" rx="5"/><rect x="250" y="211" width="380.7" height="20" rx="5"/><rect x="250" y="250" width="417.7" height="20" rx="5"/><rect x="250" y="289" width="400.1" height="20" rx="5"/></g>
+  <g fill="#0f172a" font-family="Arial,sans-serif" font-size="12" font-weight="700"><text x="401" y="109">0.093733</text><text x="516" y="148">0.170221</text><text x="518" y="187">0.171370</text><text x="642" y="226">0.253782</text><text x="679" y="265">0.278478</text><text x="661" y="304">0.266721</text></g>
+  <line x1="250" y1="345" x2="700" y2="345" stroke="#94a3b8"/>
+  <g stroke="#cbd5e1"><line x1="475" y1="89" x2="475" y2="320"/><line x1="700" y1="89" x2="700" y2="320"/></g>
+  <g fill="#64748b" font-family="Arial,sans-serif" font-size="11"><text x="246" y="364">0</text><text x="465" y="364">0.15</text><text x="686" y="364">0.30</text></g>
+</svg>

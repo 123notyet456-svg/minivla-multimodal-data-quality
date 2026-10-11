@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="390" viewBox="0 0 900 390" role="img" aria-labelledby="title desc">
+  <title id="title">不同输入与融合方案的测试 MAE</title>
+  <desc id="desc">State+Language 简单融合 0.088374，主视角 0.096104，腕部视角 0.094052，双视角 0.093733；投影融合 State+Language 0.087578，双视角 0.087860。误差越低越好。</desc>
+  <rect width="900" height="390" rx="16" fill="#f8fafc"/>
+  <text x="34" y="42" fill="#0f172a" font-family="Arial,sans-serif" font-size="22" font-weight="700">输入与融合方案：测试 MAE</text>
+  <text x="34" y="66" fill="#64748b" font-family="Arial,sans-serif" font-size="13">数值来自项目分析文档；越低越好。简单融合与投影融合分组展示。</text>
+  <g font-family="Arial,sans-serif" font-size="13" fill="#334155">
+    <text x="34" y="112">简单：State + Language</text>
+    <text x="34" y="151">简单：Main + State + Language</text>
+    <text x="34" y="190">简单：Wrist + State + Language</text>
+    <text x="34" y="229">简单：Dual + State + Language</text>
+    <text x="34" y="281">投影：State + Language</text>
+    <text x="34" y="320">投影：Dual + State + Language</text>
+  </g>
+  <g fill="#e2e8f0">
+    <rect x="300" y="94" width="480" height="20" rx="5"/><rect x="300" y="133" width="480" height="20" rx="5"/>
+    <rect x="300" y="172" width="480" height="20" rx="5"/><rect x="300" y="211" width="480" height="20" rx="5"/>
+    <rect x="300" y="263" width="480" height="20" rx="5"/><rect x="300" y="302" width="480" height="20" rx="5"/>
+  </g>
+  <g fill="#2563eb">
+    <rect x="300" y="94" width="385.6" height="20" rx="5"/><rect x="300" y="133" width="419.4" height="20" rx="5"/>
+    <rect x="300" y="172" width="410.4" height="20" rx="5"/><rect x="300" y="211" width="409.0" height="20" rx="5"/>
+  </g>
+  <g fill="#0f766e"><rect x="300" y="263" width="382.2" height="20" rx="5"/><rect x="300" y="302" width="383.4" height="20" rx="5"/></g>
+  <g fill="#0f172a" font-family="Arial,sans-serif" font-size="12" font-weight="700">
+    <text x="696" y="109">0.088374</text><text x="730" y="148">0.096104</text><text x="721" y="187">0.094052</text>
+    <text x="719" y="226">0.093733</text><text x="693" y="278">0.087578</text><text x="694" y="317">0.087860</text>
+  </g>
+  <line x1="300" y1="345" x2="780" y2="345" stroke="#94a3b8"/>
+  <g fill="#64748b" font-family="Arial,sans-serif" font-size="11"><text x="296" y="364">0</text><text x="514" y="364">0.05</text><text x="732" y="364">0.10</text></g>
+  <g stroke="#cbd5e1"><line x1="518" y1="89" x2="518" y2="333"/><line x1="736" y1="89" x2="736" y2="333"/></g>
+</svg>

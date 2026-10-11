@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="390" viewBox="0 0 900 390" role="img" aria-labelledby="title desc">
+  <title id="title">视觉时间错位与测试 MAE 的关系</title>
+  <desc id="desc">视觉错位 0、0.1、0.5、2、5 秒时，MAE 分别为 0.093733、0.094475、0.112833、0.222641、0.322359。</desc>
+  <rect width="900" height="390" rx="16" fill="#f8fafc"/>
+  <text x="34" y="42" fill="#0f172a" font-family="Arial,sans-serif" font-size="22" font-weight="700">视觉时间错位与测试误差</text>
+  <text x="34" y="66" fill="#64748b" font-family="Arial,sans-serif" font-size="13">沿同一轨迹时间轴错位视觉；数据来自项目分析文档。</text>
+  <g stroke="#cbd5e1" stroke-width="1"><line x1="100" y1="320" x2="820" y2="320"/><line x1="100" y1="258" x2="820" y2="258"/><line x1="100" y1="196" x2="820" y2="196"/><line x1="100" y1="134" x2="820" y2="134"/><line x1="100" y1="72" x2="820" y2="72"/></g>
+  <g fill="#64748b" font-family="Arial,sans-serif" font-size="11"><text x="63" y="324">0.00</text><text x="63" y="262">0.10</text><text x="63" y="200">0.20</text><text x="63" y="138">0.30</text><text x="63" y="76">0.40</text><text x="126" y="344">0</text><text x="276" y="344">0.1</text><text x="431" y="344">0.5</text><text x="586" y="344">2</text><text x="741" y="344">5</text><text x="404" y="373">视觉错位（秒，分类坐标）</text></g>
+  <polyline points="130,262 285,262 440,251 595,182 750,120" fill="none" stroke="#0f766e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#0f766e" stroke="#ffffff" stroke-width="3"><circle cx="130" cy="262" r="7"/><circle cx="285" cy="262" r="7"/><circle cx="440" cy="251" r="7"/><circle cx="595" cy="182" r="7"/><circle cx="750" cy="120" r="7"/></g>
+  <g fill="#0f172a" font-family="Arial,sans-serif" font-size="12" font-weight="700"><text x="104" y="246">0.093733</text><text x="257" y="244">0.094475</text><text x="412" y="233">0.112833</text><text x="567" y="164">0.222641</text><text x="722" y="101">0.322359</text></g>
+  <text x="116" y="54" fill="#64748b" font-family="Arial,sans-serif" font-size="11">测试 MAE（越低越好）</text>
+</svg>

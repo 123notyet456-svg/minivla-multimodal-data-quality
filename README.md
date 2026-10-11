@@ -22,6 +22,16 @@ MAE（Mean Absolute Error，平均绝对误差）越低越好。
 1. 测试时删除、错配或时间错位视觉都会显著抬高误差；同任务内换帧也使 MAE 增加 184.55%，支持模型使用帧级视觉状态。
 2. 投影融合将双视觉 MAE 从 0.093733 降至 0.087860，改善 6.27%；但仍略高于同架构 State+Language 的 0.087578，差距 0.32%。因此不能宣称视觉已经超过状态和语言基线。
 
+## 关键图表
+
+图表根据本项目分析文档中的聚合数字绘制，未从原始日志独立重算。
+
+![不同输入与融合方案的测试 MAE](docs/figures/model-comparison.svg)
+
+![测试时视觉置零与错配干预的 MAE](docs/figures/visual-interventions.svg)
+
+![视觉时间错位与测试 MAE 的关系](docs/figures/temporal-shift.svg)
+
 ## 文档
 
 - [简历项目经历](resume-project.md)
